@@ -186,7 +186,7 @@ section { padding: clamp(50px, 7vw, 88px) 0px; }
 
 .modal-bd { position: absolute; inset: 0px; background: rgba(3, 8, 16, 0.7); backdrop-filter: blur(3px); }
 
-.modal-panel { position: relative; width: min(1000px, 100%); max-height: 94vh; overflow-y: auto; background: var(--paper); border-top-color: ; border-top-style: ; border-top-width: ; border-right-color: ; border-right-style: ; border-right-width: ; border-left-color: ; border-left-style: ; border-left-width: ; border-image-source: ; border-image-slice: ; border-image-width: ; border-image-outset: ; border-image-repeat: ; border-bottom: 0px; border-radius: 8px 8px 0px 0px; padding-top: 0px; padding-right: 0px; padding-left: 0px; padding-bottom: calc(40px + env(safe-area-inset-bottom,0px)); }
+.modal-panel { position: relative; width: min(1000px, 100%); max-height: 94vh; overflow-y: auto; background: var(--paper); border-top-color: var(--paper); border-top-style: solid; border-top-width: 1px; border-right-color: var(--paper); border-right-style: solid; border-right-width: 1px; border-left-color: var(--paper); border-left-style: solid; border-left-width: 1px; border-image-source: url(/sixtus-portfolio/image.jpg); border-image-slice: 30; border-image-width: 10px; border-image-outset: 0px; border-image-repeat: round; border-bottom: 0px; border-radius: 8px 8px 0px 0px; padding-top: 0px; padding-right: 0px; padding-left: 0px; padding-bottom: calc(40px + env(safe-area-inset-bottom,0px)); }
 
 @media (min-width: 760px) {
   .modal { place-items: center; }
